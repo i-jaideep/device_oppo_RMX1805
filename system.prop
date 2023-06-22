@@ -301,3 +301,10 @@ dalvik.vm.image-dex2oat-threads=8
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
 ro.iorapd.enable=true
+
+# LMKDs
+ro.lmk.critical_upgrade=true
+ro.lmk.upgrade_pressure=40
+ro.lmk.downgrade_pressure=60
+ro.lmk.thrashing_limit=30
+ro.lmk.thrashing_limit_decay=50
